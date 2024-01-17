@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iKmvWUV+wDkj0gxhyfz13cKeI5fLxO0I3V9RSSqLSIM=",
+  "Source": "HostWebAPI",
+  "BasePath": "_content/HostWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

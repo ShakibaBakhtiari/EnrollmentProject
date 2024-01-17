@@ -1,0 +1,14 @@
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\bin\Debug\net6.0\Shatel.Enrollment.Entities.deps.json
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\bin\Debug\net6.0\Shatel.Enrollment.Entities.runtimeconfig.json
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\bin\Debug\net6.0\Shatel.Enrollment.Entities.dll
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\bin\Debug\net6.0\ref\Shatel.Enrollment.Entities.dll
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\bin\Debug\net6.0\Shatel.Enrollment.Entities.pdb
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\Shatel.Enrollment.Entities.csproj.AssemblyReference.cache
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\Shatel.Enrollment.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\Shatel.Enrollment.Entities.AssemblyInfoInputs.cache
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\Shatel.Enrollment.Entities.AssemblyInfo.cs
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\Shatel.Enrollment.Entities.csproj.CoreCompileInputs.cache
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\Shatel.Enrollment.Entities.dll
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\ref\Shatel.Enrollment.Entities.dll
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\Shatel.Enrollment.Entities.pdb
+C:\Users\sh_bakhtiari\source\repos\Enrollment4\Shatel.Enrollment.Entities\obj\Debug\net6.0\Shatel.Enrollment.Entities.genruntimeconfig.cache

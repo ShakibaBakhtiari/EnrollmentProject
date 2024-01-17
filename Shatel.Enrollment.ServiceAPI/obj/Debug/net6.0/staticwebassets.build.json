@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KTScob8w+pE5k4vRgFcg934BHM/aAa6dstb+hbLvifU=",
+  "Source": "Shatel.Enrollment.ServiceAPI",
+  "BasePath": "_content/Shatel.Enrollment.ServiceAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

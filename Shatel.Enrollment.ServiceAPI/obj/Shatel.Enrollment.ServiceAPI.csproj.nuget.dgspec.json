@@ -1,0 +1,505 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.ServiceAPI\\Shatel.Enrollment.ServiceAPI.csproj": {}
+  },
+  "projects": {
+    "F:\\Project\\Enrollment4\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Enrollment4\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DataAccess.csproj",
+        "projectName": "Shatel.Enrollment.DataAccess",
+        "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\sh_bakhtiari\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Enrollment4\\Enrollment4\\Enrollment4\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sh_bakhtiari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj": {
+                "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj"
+              },
+              "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Entities\\Shatel.Enrollment.Entities.csproj": {
+                "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Entities\\Shatel.Enrollment.Entities.csproj"
+              },
+              "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Utility\\Shatel.Enrollment.Utility.csproj": {
+                "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Utility\\Shatel.Enrollment.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Businesslayer\\Shatel.Enrollment.Businesslayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Businesslayer\\Shatel.Enrollment.Businesslayer.csproj",
+        "projectName": "Shatel.Enrollment.Businesslayer",
+        "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Businesslayer\\Shatel.Enrollment.Businesslayer.csproj",
+        "packagesPath": "C:\\Users\\sh_bakhtiari\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Businesslayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sh_bakhtiari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Project\\Enrollment4\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DataAccess.csproj": {
+                "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DataAccess.csproj"
+              },
+              "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj": {
+                "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj",
+        "projectName": "Shatel.Enrollment.DTO",
+        "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj",
+        "packagesPath": "C:\\Users\\sh_bakhtiari\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sh_bakhtiari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Entities\\Shatel.Enrollment.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Entities\\Shatel.Enrollment.Entities.csproj",
+        "projectName": "Shatel.Enrollment.Entities",
+        "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Entities\\Shatel.Enrollment.Entities.csproj",
+        "packagesPath": "C:\\Users\\sh_bakhtiari\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sh_bakhtiari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.ServiceAPI\\Shatel.Enrollment.ServiceAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.ServiceAPI\\Shatel.Enrollment.ServiceAPI.csproj",
+        "projectName": "Shatel.Enrollment.ServiceAPI",
+        "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.ServiceAPI\\Shatel.Enrollment.ServiceAPI.csproj",
+        "packagesPath": "C:\\Users\\sh_bakhtiari\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.ServiceAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sh_bakhtiari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Businesslayer\\Shatel.Enrollment.Businesslayer.csproj": {
+                "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Businesslayer\\Shatel.Enrollment.Businesslayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Utility\\Shatel.Enrollment.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Utility\\Shatel.Enrollment.Utility.csproj",
+        "projectName": "Shatel.Enrollment.Utility",
+        "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Utility\\Shatel.Enrollment.Utility.csproj",
+        "packagesPath": "C:\\Users\\sh_bakhtiari\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sh_bakhtiari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj": {
+                "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.DTO\\Shatel.Enrollment.DTO.csproj"
+              },
+              "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Entities\\Shatel.Enrollment.Entities.csproj": {
+                "projectPath": "F:\\Project\\Enrollment4\\Enrollment4\\Shatel.Enrollment.Entities\\Shatel.Enrollment.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

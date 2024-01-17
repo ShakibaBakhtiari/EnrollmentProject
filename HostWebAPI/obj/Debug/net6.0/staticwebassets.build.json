@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FYh2hBXsrZS/nrWpikYMDQrfdkyuT0SfbnEjLS09H8c=",
+  "Source": "HostWebAPI",
+  "BasePath": "_content/HostWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
